@@ -1,0 +1,49 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #7e40f6;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(126, 64, 246), rgb(80, 139, 252));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(126, 64, 246), rgb(80, 139, 252));
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+tr {
+  cursor: pointer;
+}
+
+.icon1 {
+  color: LightGray;
+  box-shadow: 0 0 1px rgba(211, 211, 211, 0.25);
+  cursor: pointer;
+  font-size: large;
+}
+
+.icon2 {
+  color: lightseagreen;
+  box-shadow: 0 0 1px rgba(32, 178, 170, 0.25);
+  cursor: pointer;
+  font-size: large;
+}
+
+.icon3 {
+  color: LightGreen;
+  box-shadow: 0 0 1px rgba(144, 238, 144, 0.25);
+  cursor: pointer;
+  font-size: large;
+}
+
+/*# sourceMappingURL=style.css.map */
